@@ -1,0 +1,36 @@
+/* CSS for CalendarStrip component */
+.calendar-strip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for date picker container */
+  .react-datepicker {
+    display: inline-block;
+    border: none;
+  }
+  
+  /* Styles for time slot buttons */
+  .time-slots {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .time-slot {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .time-slot.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Additional styles as needed */
+  
